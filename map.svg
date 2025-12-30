@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  <!-- Existing city area -->
+  <rect x="100" y="100" width="400" height="300" fill="#cce5ff" stroke="#0066cc" stroke-width="2"/>
+  <text x="300" y="80" text-anchor="middle" font-size="16">Existing LEZ (City Center)</text>
+  
+  <!-- Nordstadt expansion area -->
+  <rect x="200" y="200" width="250" height="150" fill="#ffcccc" stroke="#cc0000" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="325" y="370" text-anchor="middle" font-size="16">Proposed Nordstadt Expansion</text>
+  
+  <!-- Legend -->
+  <rect x="600" y="100" width="180" height="120" fill="white" stroke="black" stroke-width="1"/>
+  <text x="690" y="130" text-anchor="middle" font-size="14" font-weight="bold">Legend</text>
+  <rect x="620" y="150" width="20" height="20" fill="#cce5ff" stroke="#0066cc"/>
+  <text x="650" y="165" font-size="12">Existing LEZ</text>
+  <rect x="620" y="180" width="20" height="20" fill="#ffcccc" stroke="#cc0000" stroke-dasharray="5,5"/>
+  <text x="650" y="195" font-size="12">Proposed Expansion</text>
+  
+  <!-- Major roads -->
+  <line x1="100" y1="250" x2="500" y2="250" stroke="#666" stroke-width="3"/>
+  <line x1="300" y1="100" x2="300" y2="400" stroke="#666" stroke-width="3"/>
+  
+  <!-- Labels -->
+  <text x="200" y="220" font-size="12">Nordstadt District</text>
+  <text x="150" y="150" font-size="12">City Center</text>
+  <text x="400" y="300" font-size="10">Railway Line</text>
+  <text x="500" y="200" font-size="10">River</text>
+</svg>
